@@ -9,21 +9,20 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Response
-import javax.security.auth.callback.Callback
 
 class MainActivity : AppCompatActivity(), AdapterClimaItem.onDeleteItemCliCkListener {
-    private val adapterClimaItem = AdapterClimaItem()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        recyclerview.layoutManager = LinearLayoutManager(this)
-        recyclerview.adapter = adapterClimaItem
-        adapterClimaItem.onDeleteItemClickListener = this@MainActivity
-        faAddclimaitem.setOnClickListener{
-            addnewClimaItemActivity.startActivity(this)
-        }
-        
+        private val adapterClimaItem = AdapterClimaItem()
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(R.layout.activity_main)
+
+            recyclerview.layoutManager = LinearLayoutManager(this)
+            recyclerview.adapter = adapterClimaItem
+            adapterClimaItem.onDeleteItemClickListener = this@MainActivity
+            faAddclimaitem.setOnClickListener{
+                addnewClimaItemActivity.startActivity(this)
+            }
         MyApp.getInstance().getApiServices().clima().enqueue(object : retrofit2.Callback<List<ClimaItem>>{
             override fun onResponse(
                 call: Call<List<ClimaItem>>,

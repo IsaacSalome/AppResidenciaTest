@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/activity_addnew_clima_item.xml" value="0.1" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/activity_addnew_minerales_itm.xml" value="0.20923913043478262" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/activity_addnew_vitamias_item.xml" value="0.22" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/activity_minerales.xml" value="0.20923913043478262" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/activity_ubicacion.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/listitem_estaciones.xml" value="0.21693840579710144" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/layout/listitem_minerales.xml" value="0.1" />
+        <entry key="..\:/Users/ISAACSG/AndroidStudioProjects/AppResidenciatest/app/src/main/res/menu/menu_add_minerales_item.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

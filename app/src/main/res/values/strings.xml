@@ -2,4 +2,20 @@
     <string name="app_name">App Residencia test</string>
     <string name="nombre">nombre</string>
     <string name="tipo">tipo</string>
+
+    <string name="abreviaturas">abreviaturas</string>
+    <string name="porcentaje">porcentaje</string>
+    <string name="cantidad">cantidad</string>
+    <string name="descripcion">descripcion</string>
+
+
+    <string name="menu_Climas"> climas </string>
+    <string name="menu_vitaminas"> Vitaminas </string>
+    <string name="menu_Minerales"> Minerales </string>
+    <string name="menu_Fertilizante"> Fertilizante </string>
+    <string name="menu_Estacion"> Estacion </string>
+    <string name="menu_Ubicacion"> Ubicacion </string>
+    <string name="menu_Indicador_bioquimico"> Indicadores bioquimico </string>
+    <string name="menu_Suelo"> Suelo </string>
+    <string name="menu_Cultivo"> Cultivo </string>
 </resources>

@@ -16,7 +16,7 @@ class MyApp : Application() {
         instance = this
 
         retrofit = Retrofit.Builder()
-            .baseUrl("https://isaac1298.pythonanywhere.com/")
+            .baseUrl("https://joelsaid1202.pythonanywhere.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
